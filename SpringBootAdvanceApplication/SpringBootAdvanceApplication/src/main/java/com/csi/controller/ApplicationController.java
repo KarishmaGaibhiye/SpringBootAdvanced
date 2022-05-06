@@ -19,4 +19,12 @@ public class ApplicationController {
     {
         return "Software application developement";
     }
+
+    @GetMapping("/showdata")
+    public String sayShowData()
+    {
+        return "Product";
+    }
+
+
 }
